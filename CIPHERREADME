@@ -1,0 +1,3 @@
+CIPHER, el arte de esconder mensajes.
+La funcionalidad de esta app es para esconder el voto electronico de alguien de manera que solo entregue
+el texto cifrado (donde contiene el voto) a la persona encargada y esta no sepa por quien voto. 
