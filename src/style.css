@@ -1,0 +1,63 @@
+body{
+  background: #ED0778;
+}
+
+.desktop{
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #D9E9FF;
+}
+
+.imagenCipher{
+    width: 482px;
+    height: 347px;
+    left: -7px;
+    top: 10px;
+}
+
+.encabezado{
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  width: 525px;
+  left: 520px;
+  top: 0px;
+  font-size: 96px;
+  line-height: 112px;
+}
+
+.subtitulo{
+  position: absolute;
+  left: 530px;
+  top: 150px;
+  font-size: 30px;
+}
+
+.saludo{
+  position: absolute;
+  width: 403px;
+  height: 21px;
+  left: 540px;
+  top: 225px;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.estilomensaje{
+  position: absolute;
+  width: 403px;
+  height: 108px;
+  left: 540px;
+  top: 350px;
+  resize: none;
+}
+
+.labelDesplazo{
+  position: absolute;
+  width:403px;
+  height: 108px;
+  left: 540px;
+  top: 480px;
+  font-size: 16
+}
