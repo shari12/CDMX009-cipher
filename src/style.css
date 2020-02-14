@@ -13,10 +13,10 @@ body{
 }
 
 .imagenCipher{
-    width: 482px;
-    height: 347px;
-    left: -7px;
-    top: 10px;
+  width: 482px;
+  height: 347px;
+  left: -7px;
+  top: 10px;
 }
 
 .encabezado{
@@ -62,6 +62,7 @@ body{
   top: 490px;
   font-size: 20px;
 }
+
 .estiloDesplazo{
   position: absolute;
   width: 40px;
@@ -71,12 +72,10 @@ body{
   font-size: 16px;
 }
 
-
-
 .btnDeco{
   /* background y degradado de botones*/
-  background: #eb94d0;
-  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+  background: #faec4d;
+  background-image: linear-gradient(to bottom, #faec4d, #2079b0);
   /*bordes curveados*/
   border-radius: 28px;
   text-shadow: 3px 2px 1px #9daef5;
@@ -89,10 +88,11 @@ body{
   left: 800px;
   top: 550px;
 }
+
 .btnCodi{
   /* background y degradado de botones*/
-  background: #eb94d0;
-  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+  background: #faec4d;
+  background-image: linear-gradient(to bottom, #faec4d, #2079b0);
   /*bordes curveados*/
   border-radius: 28px;
   text-shadow: 3px 2px 1px #9daef5;
@@ -107,7 +107,14 @@ body{
 }
 
 .btnCodi:hover, .btnDeco:hover{ /*al poner cursor sobre el boton*/
- background: #2079b0;
- background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
- text-decoration: none;
+  background: #2079b0;
+  background-image: linear-gradient(to bottom, #2079b0, #faec4d);
+  text-decoration: none;
+}
+
+.labelMensaje{
+  position: absolute;
+  top: 660px;
+  left: 600px;
+  font-size: 24px;
 }

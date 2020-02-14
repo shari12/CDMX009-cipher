@@ -8,25 +8,24 @@
   </head>
   <body>
     <div id="root" class="desktop">
-      <img src="images/billCipher.png" alt="holi" class="imagenCipher">
+      <img src="images/billCipher.png" class="imagenCipher">
       <h1 class="encabezado">  C I P H E R </h1>
       <h2 class="subtitulo"> el arte de esconder tus mensajes</h2>
       <br>
       <p class="saludo"> Hola, ingresa tu mensaje para encontrar tus pistas :</p>
-      <textarea id="mensaje" class="estilomensaje"> </textarea>
 
 
-        <label class="labelDesplazo">Ingresa el numero de desplazamientos</label>
+        <textarea id="mensaje" class="estilomensaje" required="fg
+        "> </textarea>
+        <label class="labelDesplazo">Ingresa el número de desplazamientos</label>
         <input type="number" id="desplazo" class="estiloDesplazo">
-        <button class="btnDeco"> CODIFICA </button>
-        <button class="btnCodi"> DECODIFICA</button>
-
-
-
+        <button class="btnCodi" id="btnEncode">CODIFICA</button>
+        <button class="btnDeco" id="btnDecode">DECODIFICA</button>
+        <p id="resultMsg" class="labelMensaje"></>
 
 
 
     </div>
-    <script src="index.js" type="mdule"></script>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
