@@ -118,3 +118,18 @@ body{
   left: 600px;
   font-size: 24px;
 }
+.btnClean{
+  position: absolute;
+  top: 800px;
+  left: 700px;
+
+  background: #faec4d;
+  background-image: linear-gradient(to bottom, #faec4d, #2079b0);
+  /*bordes curveados*/
+  border-radius: 28px;
+  text-shadow: 3px 2px 1px #9daef5;
+  box-shadow: 6px 5px 24px #666666;
+  font-size: 27px;
+  text-decoration: none;
+
+}
