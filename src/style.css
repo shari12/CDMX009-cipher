@@ -1,10 +1,10 @@
-body{
+body {
   background: #ED0778;
   font-family: 'Sriracha';
   cursive;
 }
 
-.desktop{
+.desktop {
   position: relative;
   width: 100%;
   height: 900px;
@@ -12,14 +12,14 @@ body{
   background: #D9E9FF;
 }
 
-.imagenCipher{
+.imagenCipher {
   width: 482px;
   height: 347px;
   left: -7px;
   top: 10px;
 }
 
-.encabezado{
+.encabezado {
   position: absolute;
   width: 525px;
   left: 520px;
@@ -28,14 +28,14 @@ body{
   line-height: 112px;
 }
 
-.subtitulo{
+.subtitulo {
   position: absolute;
   left: 530px;
   top: 150px;
   font-size: 30px;
 }
 
-.saludo{
+.saludo {
   position: absolute;
   width: 403px;
   height: 21px;
@@ -45,7 +45,7 @@ body{
   line-height: 35px;
 }
 
-.estilomensaje{
+.estilomensaje {
   position: absolute;
   width: 403px;
   height: 108px;
@@ -54,16 +54,16 @@ body{
   resize: none;
 }
 
-.labelDesplazo{
+.labelDesplazo {
   position: absolute;
-  width:403px;
+  width: 403px;
   height: 108px;
   left: 550px;
   top: 490px;
   font-size: 20px;
 }
 
-.estiloDesplazo{
+.estiloDesplazo {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -72,7 +72,7 @@ body{
   font-size: 16px;
 }
 
-.btnDeco{
+.btnDeco {
   /* background y degradado de botones*/
   background: #faec4d;
   background-image: linear-gradient(to bottom, #faec4d, #2079b0);
@@ -89,7 +89,7 @@ body{
   top: 550px;
 }
 
-.btnCodi{
+.btnCodi {
   /* background y degradado de botones*/
   background: #faec4d;
   background-image: linear-gradient(to bottom, #faec4d, #2079b0);
@@ -106,23 +106,24 @@ body{
   top: 550px;
 }
 
-.btnCodi:hover, .btnDeco:hover{ /*al poner cursor sobre el boton*/
+.btnCodi:hover, .btnDeco:hover {
+  /*al poner cursor sobre el boton*/
   background: #2079b0;
   background-image: linear-gradient(to bottom, #2079b0, #faec4d);
   text-decoration: none;
 }
 
-.labelMensaje{
+.labelMensaje {
   position: absolute;
   top: 660px;
   left: 600px;
   font-size: 24px;
 }
-.btnClean{
+
+.btnClean {
   position: absolute;
   top: 800px;
   left: 700px;
-
   background: #faec4d;
   background-image: linear-gradient(to bottom, #faec4d, #2079b0);
   /*bordes curveados*/
@@ -131,5 +132,4 @@ body{
   box-shadow: 6px 5px 24px #666666;
   font-size: 27px;
   text-decoration: none;
-
 }

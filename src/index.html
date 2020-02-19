@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet"/>
-  </head>
-  <body>
-    <div id="root" class="desktop">
-      <img src="images/billCipher.png" class="imagenCipher">
-      <h1 class="encabezado">  C I P H E R </h1>
-      <h2 class="subtitulo"> el arte de esconder tus mensajes</h2>
-      <br>
-      <p class="saludo"> Hola, ingresa tu mensaje para encontrar tus pistas :</p>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="root" class="desktop">
+    <img src="images/billCipher.png" class="imagenCipher">
+    <h1 class="encabezado"> C I P H E R </h1>
+    <h2 class="subtitulo"> el arte de esconder tus mensajes</h2>
+    <br>
+    <p class="saludo"> Hola, ingresa tu mensaje para encontrar tus pistas:</p>
 
 
-        <textarea id="mensaje" class="estilomensaje"></textarea>
-        <label class="labelDesplazo">Ingresa el número de desplazamientos</label>
-        <input type="number" id="desplazo" class="estiloDesplazo">
-        <button class="btnCodi" id="btnEncode">CODIFICA</button>
-        <button class="btnDeco" id="btnDecode">DECODIFICA</button>
-        <p id="resultMsg" class="labelMensaje"></p>
-        <button class="btnClean" id="btnCleaner">LIMPIAR</button>
+    <textarea id="mensaje" class="estilomensaje"></textarea>
+    <label class="labelDesplazo">Ingresa el número de desplazamientos</label>
+    <input type="number" id="desplazo" class="estiloDesplazo">
+    <button class="btnCodi" id="btnEncode">CODIFICA</button>
+    <button class="btnDeco" id="btnDecode">DECODIFICA</button>
+    <p id="resultMsg" class="labelMensaje"></p>
+    <button class="btnClean" id="btnCleaner">LIMPIAR</button>
 
 
 
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
