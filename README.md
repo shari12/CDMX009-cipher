@@ -24,13 +24,13 @@ Liga del mockup https://www.figma.com/proto/qeC139whQrNG0pFtg9y0ly/cipher?node-i
 ### OBJETIVOS DE APRENDIZAJE
 
 ### UX
-- [✓] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
 - [✓] Crear prototipos para obtener feedback e iterar.
 - [✓] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
-- [ ] Uso correcto de HTML semántico.
+- [✓] Uso correcto de HTML semántico.
 - [✓] Uso de selectores de CSS.
 - [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 
@@ -45,7 +45,7 @@ Liga del mockup https://www.figma.com/proto/qeC139whQrNG0pFtg9y0ly/cipher?node-i
 - [✓] Manipulación de strings.
 - [✓] Uso de condicionales (if-else | switch).
 - [✓] Uso de bucles (for | do-while).
-- [ ] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [✓] Uso de funciones (parámetros | argumentos | valor de retorno).
 - [✓] Declaración correcta de variables (const & let).
 
 ### Testing
